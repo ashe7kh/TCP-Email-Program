@@ -17,9 +17,9 @@ email (content), as well as the time it was sent (time).
 
 How to execute:
 
-1. Begin by entering "go run server.go" on your machine's command line, this program will create the server, allowing the client's
+1. Begin by entering "go run ProcessA(server).go" on your machine's command line, this program will create the server, allowing the client's
 message to "exists" somewhere.
-2. Secondly enter "go run client.go" in a separate command line, this program will them prompt the user to enter their email
+2. Secondly enter "go run ProcessB(client).go" in a separate command line, this program will them prompt the user to enter their email
 message.
 3. Enter desired email message following format outlined in prompt. The email must contain all fields specified,
 separated by a semicolon ";".
