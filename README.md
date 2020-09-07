@@ -29,4 +29,4 @@ TCP channel. Confirmation email contains a copy of the Client's email.
 
 Additional information:
 
-Our process A is contained in the "ProcessA(server).go" file, and the process B is contained in "ProcessB(client).go file". We defined the "email" struct entirely within the "server.go" file, thus making the entire email struct on the serverside of the program.
+Our process A is contained in the "ProcessA(server).go" file, and the process B is contained in "ProcessB(client).go file". We defined the "email" struct entirely within the "ProcessA(server).go" file, thus making the entire email struct on the serverside of the program.
