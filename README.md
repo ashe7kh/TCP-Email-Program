@@ -8,8 +8,8 @@ user to decide which port to communicate from, we believed that declaring it our
 arising. Two programs exist to facilitate this dialogue, one is the server who receives the message and the other being
 the client who sends it. The server holds a record of all communication which has occurred through the channel.
 Upon receiving an email the server responds by sending a copy of the email to the client, while simultaneously
-triggering the termination protocol. The termination protocol exists the program preventing further communication. The
-type of message which can be sent through this particular TCP channel is exclusively an email messages. The email
+triggering the termination protocol. The termination protocol exits the program preventing further communication. The
+type of message which can be sent through this particular TCP channel is exclusively an email message. The email
 message contains a total of 5 fields which are populated by the client through the command line;
 they are: the desired address (to), the name of the sender (from), the title of the message (title), the body of the
 email (content), as well as the time it was sent (time).
